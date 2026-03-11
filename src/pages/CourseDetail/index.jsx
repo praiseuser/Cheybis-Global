@@ -13,7 +13,7 @@ import LockIcon from '@mui/icons-material/Lock';
 import CloseIcon from '@mui/icons-material/Close';
 import { colors, typography } from '../../theme';
 import { cdCSS, heroSx, gridBgSx, orbSx, bodySx } from './styles';
-import COURSES_DATA, { SLUG_MAP } from './data';
+import COURSES_DATA, { SLUG_MAP } from './Data';
 
 const useReveal = (t = 0.07) => {
     const ref = useRef(null);
